@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.nav{
+   color: black;
+}
+
+.nav:hover{
+   color:red;
+}
+
+.navContainer{
+   display: flex;
+   flex-direction: row;
+   gap: 55px;
+   width: 100%;
+   background-color: white;
+   padding: 10px;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
