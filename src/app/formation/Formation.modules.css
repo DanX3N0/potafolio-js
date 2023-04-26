@@ -1,0 +1,47 @@
+*{
+   padding: 0px;
+   margin: 0px; 
+}
+.formation{
+   padding: 30px;
+   background-image: url('../img/figuresW1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.formationContent p{
+   color: white;
+   background-color: black;
+}
+
+.date{
+   border-color: black;
+   border-style: solid;
+   border-radius: 100%;
+   padding: 20px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width:fit-content;
+}
+.date:hover{
+   border-color: gold;
+   zoom: 120%;
+}
+
+.information{
+   border-style: solid;
+   border-top-color: black;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+.information:hover{
+   border-color: gold;
+   zoom: 120%;
+}

@@ -1,0 +1,26 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+.containerExp{
+   display: flex;
+   background-image: url('../img/desert.jpg');
+   background-repeat: no-repeat;
+   height: 690px;
+   justify-content: center;
+   background-size:cover;
+   background-position:center;
+}
+
+.textExp{
+   margin-top: 180px;
+   font-size: 45px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   animation: rollIn;
+   animation-duration: 2s;
+}
+
+
+

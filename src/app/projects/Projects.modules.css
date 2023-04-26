@@ -1,0 +1,38 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+.divProjects{
+   background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/HGATaVJubj6casdeu/videoblocks-happy-halloween-animated-scene-with-death-hands-in-cemetery-4k-video-animation_bf1wqzcgd_thumbnail-1080_01.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 690px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-position-x: center;
+}
+
+.divProjects p{
+   width: 270px;
+   height: 260px;
+   background-image: url('https://www.mpadeco.com/resize/500x500/zc/2/f/0/src/sites/mpadeco/files/products/8609273a9c89f732ed5cbe9862e85a45.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: -40px;
+   background-position-x: -40px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: 'Courier New', Courier, monospace;
+   margin-top: 2%;
+   border-radius: 20px;
+   text-align: end;
+   padding-top: 190px;
+}
+
+.divProjects p:hover{
+   animation: hinge;
+   animation-duration: 2s;
+}

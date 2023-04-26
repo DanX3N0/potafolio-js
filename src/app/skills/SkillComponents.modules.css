@@ -1,0 +1,164 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+.containerSkills{
+   background-image: url('../img/figuresW1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.languages{
+   margin: 10px;
+}
+
+.languages h2{
+   color: white;
+   text-align: center;
+   background-color: black;
+   border-radius: 20px;
+}
+
+.lButtonJava{
+   background-image: url('../img/javaLogo.jpg');
+   width: 250px;
+   margin: 10px;
+   height:150px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: -10px;
+   border-radius: 10px;
+}
+.lButtonJs{
+   background-image: url('../img/jsLogo.png');
+   margin: 10px;
+   width: 250px;
+   height:150px;
+   background-size: cover;
+   background-position-y: -90px;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+/*BUTTON JAVA*/
+.languages .emojiJava{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+}
+
+.languages .emojiJavaOn{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+   background-image: url('../img/EmojiJavaLentes.png');  
+   background-size: contain;
+}
+/*BUTTON JAVASCRIPT*/
+.languages .emojiJs{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+}
+
+.languages .emojiJsOn{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+   background-image: url('../img/emojiSonrisaLeve.jpg');  
+   background-size: contain;
+}
+
+/*FRAMEWORKS*/
+.frameworks{
+   margin: 10px;
+   margin-top: 50px;
+}
+
+.frameworks h2{
+   color: white;
+   text-align: center;
+   background-color: black;
+   border-radius: 20px;
+}
+
+.lButtonReact{
+   background-image: url('../img/reactLogo.jpeg');
+   width: 250px;
+   margin: 10px;
+   height:180px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: -25px;
+   border-radius: 10px;
+}
+.lButtonNextJs{
+   background-image: url('../img/nextLogo.png');
+   margin: 10px;
+   width: 250px;
+   height:150px;
+   background-size: cover;
+   background-position-y: -40px;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+/*BUTTON REACT*/
+.frameworks .emojiReact{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+}
+
+.frameworks .emojiReactOn{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+   background-image: url('../img/caraPreocupada.jpg');  
+   background-size: contain;
+}
+/*BUTTON NEXTJS*/
+.frameworks .emojiNextjs{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+}
+
+.frameworks .emojiNextjsOn{
+   width: 100px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   border-color: black;
+   border-style: solid;
+   background-image: url('../img/emojiPulgarAbajo.jpg');  
+   background-size: contain;
+}
