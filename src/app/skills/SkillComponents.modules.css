@@ -26,9 +26,13 @@
    text-align: center;
    background-color: black;
    border-radius: 20px;
+   animation: backInLeft;
+   animation-duration: 2s;
 }
 
 .lButtonJava{
+   animation: backInRight;
+   animation-duration: 2s;
    background-image: url('../img/javaLogo.jpg');
    width: 250px;
    margin: 10px;
@@ -39,6 +43,8 @@
    border-radius: 10px;
 }
 .lButtonJs{
+   animation: backInRight;
+   animation-duration: 2s;
    background-image: url('../img/jsLogo.png');
    margin: 10px;
    width: 250px;
@@ -50,6 +56,8 @@
 }
 /*BUTTON JAVA*/
 .languages .emojiJava{
+   animation: backInLeft;
+   animation-duration: 2s;
    width: 100px;
    height: 100px;
    margin-left:auto;
@@ -70,6 +78,8 @@
 }
 /*BUTTON JAVASCRIPT*/
 .languages .emojiJs{
+   animation: backInLeft;
+   animation-duration: 2s;
    width: 100px;
    height: 100px;
    margin-left:auto;
@@ -96,6 +106,8 @@
 }
 
 .frameworks h2{
+   animation: backInLeft;
+   animation-duration: 2s;
    color: white;
    text-align: center;
    background-color: black;
@@ -103,6 +115,8 @@
 }
 
 .lButtonReact{
+   animation: backInRight;
+   animation-duration: 2s;
    background-image: url('../img/reactLogo.jpeg');
    width: 250px;
    margin: 10px;
@@ -113,6 +127,8 @@
    border-radius: 10px;
 }
 .lButtonNextJs{
+   animation: backInRight;
+   animation-duration: 2s;
    background-image: url('../img/nextLogo.png');
    margin: 10px;
    width: 250px;
@@ -124,6 +140,8 @@
 }
 /*BUTTON REACT*/
 .frameworks .emojiReact{
+   animation: backInLeft;
+   animation-duration: 2s;
    width: 100px;
    height: 100px;
    margin-left:auto;
@@ -144,6 +162,8 @@
 }
 /*BUTTON NEXTJS*/
 .frameworks .emojiNextjs{
+   animation: backInLeft;
+   animation-duration: 2s;
    width: 100px;
    height: 100px;
    margin-left:auto;
